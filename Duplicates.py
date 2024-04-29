@@ -6,7 +6,7 @@ from pyspark.sql.types import IntegerType
 from pyspark.sql.window import Window
 import os
 
-os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-8-openjdk-amd64"
+# os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-8-openjdk-amd64"
 
 # Create SparkSession
 spark = SparkSession.builder \
